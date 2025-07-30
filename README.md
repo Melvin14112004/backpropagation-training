@@ -1,10 +1,10 @@
-# 🔁 Backpropagation on Feedforward Neural Network
+# Backpropagation on Feedforward Neural Network:
 
 This project demonstrates training a simple multilayer feedforward neural network using the **Backpropagation algorithm** on a single training tuple: **(X1 = 1, X2 = 1, Target = 0)**.
 
 ---
 
-## 🧠 Network Architecture
+## Network Architecture:
 
 - **Input Layer:** 2 neurons (X1, X2)
 - **Hidden Layer:** 2 neurons (Node 3, Node 4)
@@ -15,7 +15,7 @@ This project demonstrates training a simple multilayer feedforward neural networ
 
 ---
 
-## 📐 Initial Weights and Biases
+## Initial Weights and Biases:
 
 | Connection | Value  |
 |------------|--------|
@@ -31,7 +31,7 @@ This project demonstrates training a simple multilayer feedforward neural networ
 
 ---
 
-## 🧪 Training Details
+## Training Details:
 
 - **Input:** (X1 = 1, X2 = 1)
 - **Target Output:** 0
@@ -44,7 +44,7 @@ This project demonstrates training a simple multilayer feedforward neural networ
 
 ---
 
-## 💻 Python Code (with Explanations)
+## Python Code (with Explanations):
 
 ```python
 import numpy as np
@@ -122,7 +122,7 @@ print(f"Loss = {0.5 * error**2:.5f}")
 
 ---
 
-## 📊 Output of This Script
+## Output of This Script:
 
 Forward Pass Output:
 a3 = 0.68997, a4 = 0.57444, a5 (output) = 0.73911
@@ -134,7 +134,7 @@ W35 = 0.05083, W45 = 0.25907, b5 = 0.72874
 Loss = 0.27314
 ---
 
-## 🚀 How to Run the Code
+## How to Run the Code:
 
 1. Save the code to a Python file, e.g., `backpropagation_train.py`
 2. Run it:
@@ -144,6 +144,6 @@ Loss = 0.27314
 
 ---
 
-## 📚 Result
+## Result:
 
 This script performs a full forward and backward pass using the backpropagation algorithm and shows how weights are updated based on the error.
